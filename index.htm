@@ -3,32 +3,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="img/profile.jpg" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <style media="screen">
     body{
       margin: 0px;
       padding: 0px;
-      background: url('img/texture.png');
-      font-family: BlinkMacSystemFont, -apple-system, "Segoe UI";
     }
     h1{
-        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI";
+      font-family: 'Great Vibes', cursive;
         font-weight: 100;
+
     }
     .col-sm{
       border-right:  1px solid rgba(150,150,150,.5);
       border-bottom:   1px solid rgba(150,150,150,.5);
+      height: 300px;
         }
       .vsp{
         margin-top: 80px;
+      }
+      .center{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
       }
       .img-container{
           height: 100px;
           width: 100px;
           border-radius: 50%;
           overflow: hidden;
-          position: relative;
-          left: 50%;
-          transform: translate(-50%,-50px);
         }
       .container-fluid{
         text-align: center;
@@ -40,33 +45,50 @@
         height: 1px;
         background-color: rgba(150,150,150,.5);
       }
+      .col-sm{
+        padding:60px;
+      }
     </style>
 
     <title>About Me</title>
   </head>
   <body>
     <div class="container-fluid vsp ">
-      <div class="img-container">
+      <div class="center img-container">
         <img src="img/profile.jpg" width="100%">
-        </img>
       </div>
+      <br>
       <div class="caption">
-        <h1> Hi, I’m Avinash Kumar, currently a web desiner.</h1>
+        <h1><sup> <i class="fa fa-quote-left"></i></sup>Hi, I’m Avinash Kumar, an
+Interactive web designer <sup><i class="fa fa-quote-right"></i></sup> </h1>
       </div>
       <hr class="vsp">
-      I’M SPECIALISED IN
+        <strong> I’M SPECIALISED IN  </strong>
       <hr style="margin-bottom:0px;">
       <div class="container-fluid">
         <div class="row" style="">
           <div class="col-sm">
-            One of three columns
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="150vw">
           </div>
           <div class="col-sm">
-            One of three columns
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/548px-CSS.3.svg.png" width="110vw">
           </div>
           <div class="col-sm">
-            One of three columns
+            <img src="http://trinitive.com/ganesh_logos/js3.png" width="150vw">
           </div>
+
+        </div>
+        <div class="row" style="">
+          <div class="col-sm">
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="150vw">
+          </div>
+          <div class="col-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/548px-CSS.3.svg.png" width="110vw">
+          </div>
+          <div class="col-sm">
+            <img src="http://trinitive.com/ganesh_logos/js3.png" width="150vw">
+          </div>
+
         </div>
       </div>
 
